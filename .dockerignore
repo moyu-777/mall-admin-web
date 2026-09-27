@@ -1,0 +1,13 @@
+# 绝对不能进构建上下文的东西
+node_modules
+dist
+
+# 版本控制与 CI
+.git
+.gitignore
+Jenkinsfile
+Dockerfile
+
+# 杂项
+*.log
+npm-debug.log*
